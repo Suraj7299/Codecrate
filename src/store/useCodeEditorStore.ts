@@ -8,7 +8,7 @@ const getInitialState = () => {
   if (typeof window === "undefined") {
     return {
       language: "javascript",
-      fontSize: 16,
+      fontSize: 14,
       theme: "vs-dark",
     };
   }
