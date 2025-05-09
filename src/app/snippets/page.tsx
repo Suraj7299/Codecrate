@@ -62,7 +62,7 @@ function SnippetsPage() {
             transition={{ delay: 0.1 }}
             className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-gray-100 to-gray-300 text-transparent bg-clip-text mb-6"
           >
-            Discover & Share Code Snippets
+            Explore & Exchange Code Snippets
           </motion.h1>
           <motion.p
             initial={{ opacity: 0 }}
@@ -70,7 +70,7 @@ function SnippetsPage() {
             transition={{ delay: 0.2 }}
             className="text-lg text-gray-400 mb-8"
           >
-            Explore a curated collection of code snippets from the community
+            Get a curated collection of code snippets from the community
           </motion.p>
         </div>
 
