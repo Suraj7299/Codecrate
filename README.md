@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🚀 CodeCrate – Code Snippet Manager & Executor
 
-## Getting Started
+**CodeCrate** is a real-time, modern code snippet manager that enables users to **create, organize, execute**, and **share** code across multiple languages. Built with developer experience in mind, it offers an interactive Monaco editor, user dashboard, and multi-language support — all with a beautiful UI powered by Next.js.
 
-First, run the development server:
+🔗 **Live Site:** [CodeCrate](https://codecrate.vercel.app/)  
+📂 **Source Code:** [GitHub](https://github.com/Suraj7299/Codecrate)
+
+---
+
+## ✨ Features
+
+🧠 **Smart Snippet Storage** – Save, edit, tag, and search your code snippets easily.  
+🖍️ **Monaco Editor Integration** – A VSCode-like editing experience in the browser.  
+🗃️ **Multi-Language Support** – Organize snippets by language, project, or tags.  
+📤 **Public Sharing** – Generate public or private shareable links to any snippet.  
+📈 **User Dashboard** – Track total snippets, favorite languages, and starred items.  
+🎨 **Custom Themes** – Choose from multiple themes to personalize your workspace.  
+🔐 **Authentication** – Seamless and secure user auth via Clerk.  
+💳 **Subscription Model** – Free tier (basic features) and Pro tier with advanced tools via LemonSqueezy.
+
+---
+
+## 🛠 Tech Stack
+
+- **Frontend:** Next.js 15, TypeScript, TailwindCSS, shadcn/ui  
+- **Authentication:** Clerk  
+- **Payments:** LemonSqueezy  
+- **Database:** Convex (real-time)  
+- **Editor:** Monaco Editor  
+- **Deployment:** Vercel
+
+---
+
+## ⚙️ Installation & Setup
+
+Follow these steps to set up CodeCrate locally:
 
 ```bash
+# 1️⃣ Clone the repository
+git clone https://github.com/Suraj7299/Codecrate.git
+cd CodeCrate
+
+# 2️⃣ Install dependencies
+npm install
+
+# 3️⃣ Create a .env.local file in the root with the following content:
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=your_clerk_publishable_key
+CLERK_SECRET_KEY=your_clerk_secret_key
+CLERK_WEBHOOK_SECRET=your_clerk_webhook_secret
+NEXT_PUBLIC_CONVEX_URL=your_convex_url
+CONVEX_DEPLOYMENT=your_convex_deployment
+NEXT_PUBLIC_CHECKOUT_URL=your_lemonsqueezy_checkout_url
+PAYMENT_WEBHOOK_SIGNING_SECRET=your_lemonsqueezy_webhook_secret
+
+# 4️⃣ Run the development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+Now open your browser and navigate to:
+http://localhost:3000
 ```
+---
+🤝 Contributing
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Contributions, issues, and feature suggestions are welcome!
+Feel free to fork the repo, open an issue, or submit a pull request 🚀
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+📜 License
 
-## Learn More
+This project is licensed under the GNU GENERAL PUBLIC LICENSE v3.
 
-To learn more about Next.js, take a look at the following resources:
+---
+🧑‍💼 Author
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Suraj Kumar
+Thanks for checking out CodeCrate! Happy coding ✨
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---          
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
