@@ -10,12 +10,19 @@
 ## ✨ Features
 
 🧠 **Smart Snippet Storage** – Save, edit, tag, and search your code snippets easily.  
+
 🖍️ **Monaco Editor Integration** – A VSCode-like editing experience in the browser.  
+
 🗃️ **Multi-Language Support** – Organize snippets by language, project, or tags.  
+
 📤 **Public Sharing** – Generate public or private shareable links to any snippet.  
+
 📈 **User Dashboard** – Track total snippets, favorite languages, and starred items.  
+
 🎨 **Custom Themes** – Choose from multiple themes to personalize your workspace.  
+
 🔐 **Authentication** – Seamless and secure user auth via Clerk.  
+
 💳 **Subscription Model** – Free tier (basic features) and Pro tier with advanced tools via LemonSqueezy.
 
 ---
