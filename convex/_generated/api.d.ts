@@ -13,7 +13,6 @@ import type {
   FilterApi,
   FunctionReference,
 } from "convex/server";
-import type * as authconfig from "../authconfig.js";
 import type * as codeExecutions from "../codeExecutions.js";
 import type * as http from "../http.js";
 import type * as lemonSqueezy from "../lemonSqueezy.js";
@@ -29,7 +28,6 @@ import type * as users from "../users.js";
  * ```
  */
 declare const fullApi: ApiFromModules<{
-  authconfig: typeof authconfig;
   codeExecutions: typeof codeExecutions;
   http: typeof http;
   lemonSqueezy: typeof lemonSqueezy;
